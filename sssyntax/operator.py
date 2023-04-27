@@ -338,7 +338,7 @@ if __name__=="__main__":
     #import lexer
     doOperatorCmd( "A.callOp", '(100) [" "] (100)')
     doOperatorCmd("A.zeroTuple",'["["] ["]"]')
-    doOperatorCmd("A.zeroTuple",'["["] () ["" repeating] () ["]"]')
+    doOperatorCmd("A.zeroTuple",'["["] () ["," repeating] () ["]"]')
     doOperatorCmd("A.zeroTuple",'["["] () ["|"] () ["]"]')
     print(noLeft)
 
